@@ -10,7 +10,7 @@ export default function NewsletterForm() {
   async function submitForm(e) {
     e.preventDefault();
     setSubmitting(true);
-    const response = await fetch('/api/subscribe', {
+    const response = await fetch('/subscribe', {
       method: 'POST',
       body: JSON.stringify({email}),
     });

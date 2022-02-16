@@ -37,6 +37,7 @@
     "@cloudflare/kv-asset-handler": "^0.2.0",
     "@headlessui/react": "^1.4.1",
     "@shopify/hydrogen": "^0.10.1",
+    "@shopify/shopify-api": "^2.1.0",
     "body-parser": "^1.19.1",
     "compression": "^1.7.4",
     "express": "^4.17.1",
